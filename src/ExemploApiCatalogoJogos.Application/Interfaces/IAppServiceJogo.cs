@@ -8,7 +8,7 @@ namespace ExemploApiCatalogoJogos.Application.Interfaces
 {
     public interface IAppServiceJogo
     {
-        Task Adicionar(Jogo jogo);
+        Task Adicionar(Jogo jogo); 
         Task Alterar(Jogo jogo);
         Task Excluir(Guid id);
         Task<IEnumerable<Jogo>> ObterTodosAsync();
